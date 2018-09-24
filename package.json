@@ -1,20 +1,20 @@
 {
   "name": "react-native-flags",
   "version": "1.0.0",
-  "description": ":flag: Fun with flags!",
+  "description": "React native country/currency flags",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frostney/react-native-flags.git"
+    "url": "git+https://github.com/pishop/react-native-flags.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frostney/react-native-flags/issues"
+    "url": "https://github.com/pishop/react-native-flags/issues"
   },
-  "homepage": "https://github.com/frostney/react-native-flags#readme"
+  "homepage": "https://github.com/pishop/react-native-flags#readme"
 }

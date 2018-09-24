@@ -1,3 +1,3 @@
-import * as flat from './48';
+import * as flags from './48';
 
-export { flat };
+export { flags };
