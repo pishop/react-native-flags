@@ -15,7 +15,7 @@ const Flag = ({ code, style }: Props) => {
   return (
     <Image
       source={flag || unknownFlag}
-      style={[style]}
+      style={[{ width: 48, height: 48 }, style]}
     />
   );
 };
