@@ -1,4 +1,3 @@
-import * as flat from './flat';
-import * as shiny from './shiny';
+import * as flat from './48';
 
-export { flat, shiny };
+export { flat };
