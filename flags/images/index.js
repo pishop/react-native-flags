@@ -227,3 +227,4 @@ export const ZA = require('./ZA.png');
 export const XPD = require('./XPD.png');
 export const ZM = require('./ZM.png');
 export const ZW = require('./ZW.png');
+export const unknown = require('./unknown.png');
