@@ -8,6 +8,11 @@ type Props = {
   style?: any,
 };
 
+const rectangle = { width: 40, height: 25, borderRadius: 2 };
+const square = { marginLeft: 7.5, width: 25, height: 25, borderRadius: 2 };
+
+const squareFlags = ['CH', 'NE', 'NP', 'VA'];
+
 const Flag = ({ code, style }: Props) => {
   const flag = flags[code];
   const unknownFlag = flags['unknown'];
@@ -15,7 +20,7 @@ const Flag = ({ code, style }: Props) => {
   return (
     <Image
       source={flag || unknownFlag}
-      style={[{ width: 48, height: 48 }, style]}
+      style={[squareFlags.find(i => i === code) ? square : rectangle, style]}
     />
   );
 };
